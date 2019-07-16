@@ -1,0 +1,25 @@
+public class House {
+    private String color;
+    private String size;
+
+//constructor
+    public House(String color, String size) {
+        this.color = color;
+        this.size = size;
+
+    }//getter and setters//
+
+    public String getColor () {
+        return this.color;
+    }
+    public void setColor ( String newColor){
+        this.color = newColor;
+    }
+    public String getSize () {
+        return this.size;
+    }
+    public void setSize ( String newSize){
+        this.size = newSize;
+    }
+
+}
